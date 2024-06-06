@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Casa Mia Terraza</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#">Casa Mia Terraza</a>
+        <div class="big-search">
+          <div class="search_box">
+            <input
+              type="text"
+              id="filter"
+              placeholder="Search Casa Mia Terraza"
+            />
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="result-box">
+            <ul>
+              <li><a href="index.html" class="active">Dashboard</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="finance.html">Finance</a></li>
+              <li><a href="holiday.html">Holidays</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-icons">
+        <i class="fas fa-bell"></i>
+        <div class="account">
+          <h4 id="name">Taulant</h4>
+        </div>
+        <!-- Burger Menu Icon -->
+        <div class="burger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="container">
+      <nav class="side_navbar">
+        <!-- Changed div to nav -->
+        <a href=""><img src="logo.jpg" alt="" width="100%" /></a>
+        <span>Main Menu</span>
+        <a href="index.html">Dashboard</a>
+        <a href="profile.html" class="active">Profile</a>
+        <a href="finance.html">Finance</a>
+        <!-- Changed Finacat to Finance -->
+        <a href="holiday.html">Holidays</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+      <div class="hero">
+        <div class="karta">
+          <div class="card">
+            <br /><br />
+            <h1 id="profile-name">Eris Maxhuni</h1>
+            <br />
+            <p id="profile-username">@erismaxhuni</p>
+            <img src="Default_pfp.svg.png" id="profile-pic" />
+            <form id="upload-form" enctype="multipart/form-data">
+              <div class="llabella">
+                <label for="input-file">Upload your image</label>
+              </div>
+              <div class="duhetmezhduk">
+                <input
+                  type="file"
+                  accept="image/jpeg, image/png, image/jpg"
+                  id="input-file"
+                  name="fileToUpload"
+                />
+                <input type="submit" value="Upload Image" id="upload-button" />
+              </div>
+              <div class="upload-box">
+                <label for="avatarInput" class="upload-label"
+                  >Upload New Avatar</label
+                >
+                <input
+                  type="file"
+                  id="avatarInput"
+                  accept="image/*"
+                  class="hidden-input"
+                />
+                <div class="upload-info">
+                  Maximum size: 200px x 200px Maximum upload size 1MB
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="EditProfile">
+          <div class="h1shi">
+            <h1>Edit Profile</h1>
+            <br />
+          </div>
+          <div class="userinfo">
+            <h3>User Info</h3>
+            <br />
+            <hr />
+            <br /><br />
+          </div>
+          <div class="container">
+            <div class="allinformation">
+              <label for="fullname"><h3>Full Name</h3></label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                class="save-input"
+              /><br /><br />
+              <label for="password"><h3>Email</h3></label>
+              <input
+                type="email"
+                id="password"
+                name="password"
+                class="save-input"
+              /><br /><br />
+
+              <br />
+              <h3>Social Profile</h3>
+              <br />
+              <div class="social-input">
+                <input
+                  type="text"
+                  id="instagram"
+                  name="instagram"
+                  placeholder="Instagram"
+                  class="save-input"
+                />
+                <span class="icon instagram"></span>
+              </div>
+            </div>
+            <div class="allinformation1">
+              <label for="fullname1"><h3>Username</h3></label>
+              <input
+                type="text"
+                id="fullname1"
+                name="fullname1"
+                class="save-input"
+              /><br /><br />
+              <label for="password1"><h3>Password</h3></label>
+              <input
+                type="password"
+                id="password1"
+                name="password1"
+                class="save-input"
+              /><br /><br />
+              <br /><br /><br />
+              <div class="social-input">
+                <div class="twiti">
+                  <input
+                    type="text"
+                    id="twitter"
+                    name="twitter"
+                    placeholder="Twitter"
+                    class="save-input"
+                  />
+                  <span class="icon twitter"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <button class="creative-button" id="updateButton">Update Info</button>
+        </div>
+      </div>
+    </div>
+  </body>
+   <script src="profile.js"></script>
+    <script src="editprofile.js"></script>
+    <script src="searchbar.js"></script>
+</html>

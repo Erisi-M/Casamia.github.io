@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Mia Terraza</title>
+    <link rel="stylesheet" href="casasig.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <img id="bg" src="restaurant.jpg" alt="" />
+    </div>
+
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+
+          <span>or use your email for registeration</span>
+          <input type="text" id="name-signup" placeholder="Name" />
+          <input type="email" id="email-signup" placeholder="Email" />
+          <input type="password" id="psw-signup" placeholder="Password" />
+          <button id="savebtn">Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+
+          <span>or use your email password</span>
+          <input type="email" id="email" placeholder="Email" />
+          <input type="password" id="psw" placeholder="Password" />
+          <a href="#">Forget Your Password?</a>
+          <button id="savebtnn">Sign In</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back!</h1>
+            <p>Enter your personal details to use all of site features</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, Employee!</h1>
+            <p>
+              Register with your personal details to use <br />
+              Casa Mia Terraza's Admin Dashboard
+            </p>
+            <button class="hidden" id="register">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+    <script src="signin.js"></script>
+  </body>
+</html>

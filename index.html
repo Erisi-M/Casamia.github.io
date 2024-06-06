@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Mia Terraza</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#">Casa Mia Terraza</a>
+
+        <div class="big-serach">
+          <div class="search_box">
+            <input
+              type="text"
+              id="filter"
+              placeholder="Search Casamia Tarraza"
+            />
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="result-box">
+            <ul>
+              <li><a href="#" class="active">Dashboard</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="finance.html">Financat</a></li>
+              <li><a href="holiday.html">Holidays</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-icons">
+        <i class="fas fa-bell"></i>
+        <div class="account">
+          <h4 id="name">Taulant</h4>
+          <i onclick="display()" id="burger-m" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <!-- beofre -->
+
+      <div class="visable">
+        <div class="closing">
+
+          <nav>
+        
+            <div class="vside_navbar">
+              <a onclick="display1()"><img src="logo.jpg" alt="" width="70%" /></a>
+              <span>Main Menu</span>
+              <a href="#" class="active">Dashboard</a>
+              <a href="profile.html">Profile</a>
+              <a href="finance.html">Financat</a>
+              <a href="holiday.html">Holidays</a>
+    
+              <a href="contactus.html">Contact Us</a>
+            </div>
+          </nav>
+      
+      
+      </div>
+        
+      </div>
+
+
+      <!-- before -->
+
+
+
+    </header>
+    <div class="container">
+      <nav>
+        
+        <div class="side_navbar">
+          <a href=""><img src="logo.jpg" alt="" width="70%" /></a>
+          <span>Main Menu</span>
+          <a href="#" class="active">Dashboard</a>
+          <a href="profile.html">Profile</a>
+          <a href="finance.html">Financat</a>
+          <a href="holiday.html">Holidays</a>
+
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="main-body">
+        <h2>Dashboard</h2>
+        <div class="promo_card">
+          <h1>Welcome to Casa Mia Tarraza</h1>
+          <span>Eating is a necessity, but cooking is an art.</span>
+          <a href="finance.html"><button>Learn More</button></a>
+        </div>
+
+        <div class="history_lists">
+          <div class="list1">
+            <div class="row">
+              <h4>History</h4>
+              <a id="remove" href="#">See all</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Dates</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Ammount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>2, Aug, 2024</td>
+                  <td>Gzim Shaqiri</td>
+                  <td>Premimum</td>
+                  <td>$400.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>29, July, 2024</td>
+                  <td>Taulant Shaqiri</td>
+                  <td>Junior</td>
+                  <td>$450.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>15, July, 2024</td>
+                  <td>Amar Pantina</td>
+                  <td>Startup</td>
+                  <td>$780.00</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5, July, 2024</td>
+                  <td>Eris Maxhuni</td>
+                  <td>Premimum</td>
+                  <td>$590.00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>29, June, 2024</td>
+                  <td>Lorik Rama</td>
+                  <td>Senior</td>
+                  <td>$890.00</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>28, June, 2024</td>
+                  <td>Astrit Beqiri</td>
+                  <td>Premimum</td>
+                  <td>$950.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="list2">
+            <div class="row">
+              <h4>Documnets</h4>
+              <a href="#">Upload</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>Type</th>
+                  <th>Uplaoded</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>CNIC</td>
+                  <td>PDF</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Passport</td>
+                  <td>PDF</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Licence</td>
+                  <td>PDF</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Pic</td>
+                  <td>Jpg</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>CNIC</td>
+                  <td>Jpg</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Docx</td>
+                  <td>Word</td>
+                  <td>22</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="balance">
+          <div class="info">
+            <h5>E Hene</h5>
+            <span><i class="fas fa-euro"></i>340</span>
+          </div>
+        </div>
+
+        <div class="balance">
+          <div class="info">
+            <h5>E Marte</h5>
+            <span><i class="fas fa-euro"></i>440</span>
+          </div>
+        </div>
+
+        <div class="balance">
+          <div class="info">
+            <h5>E Merkure</h5>
+            <span><i class="fas fa-euro"></i>231</span>
+          </div>
+        </div>
+
+        <div class="balance">
+          <div class="info">
+            <h5>E Ejnte</h5>
+            <span><i class="fas fa-euro"></i>431</span>
+          </div>
+        </div>
+
+        <div class="balance">
+          <div class="info">
+            <h5>E Premte</h5>
+            <span><i class="fas fa-euro"></i>369</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="searchbar.js"></script>
+  <script src="profile.js"></script>
+</html>

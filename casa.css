@@ -1,0 +1,47 @@
+.logo{
+background-color: #2e6c86;
+color: white;
+padding: 15px;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+  
+
+.content-logo{
+display: flex;
+justify-content: start;
+}
+
+
+
+*{
+padding: 0;
+margin: 0;
+}
+
+
+ 
+  .search-bar {
+    color: white;
+    margin: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+padding: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-width: 0.5px ;
+    
+  }
+  
+
+  .first-content{
+display: flex;
+
+  }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactus.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Casa Mia Terraza</title>
+  </head>
+
+  <body>
+
+
+    <header class="header">
+      <div class="logo">
+        <a href="#">Casa Mia Terraza</a>
+
+        <div class="big-serach">
+          <div class="search_box">
+            <input
+              type="text"
+              id="filter"
+              placeholder="Search Casamia Tarraza"
+            />
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="result-box">
+            <ul>
+              <li><a href="#" class="active">Dashboard</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="finance.html">Financat</a></li>
+              <li><a href="holiday.html">Holidays</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-icons">
+        <i class="fas fa-bell"></i>
+        <div class="account">
+          <h4 id="name">Taulant</h4>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="side_navbar">
+        <a href=""><img src="logo.jpg" alt="" width="100%" /></a>
+        <span>Main Menu</span>
+        <a href="index.html">Dashboard</a>
+        <a href="profile.html">Profile</a>
+        <a href="finance.html">Finacat</a>
+        <a href="holiday.html">Holidays</a>
+
+        <a href="contactus.html" class="active">Contact Us</a>
+      </div>
+
+      <div class="contact-forms">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              "Thank you for considering reaching out to us. Your feedback,
+              questions, and ideas are valuable to us.
+            </p>
+
+            <div class="info">
+              <div class="information">
+                <img src="location.png" class="icon" alt="" />
+                <p>Fshati Gojbule</p>
+              </div>
+              <div class="information">
+                <img src="email.png" class="icon" alt="" />
+                <p>casamiaterraza@gmail.com</p>
+              </div>
+              <div class="information">
+                <img src="phone.png" class="icon" alt="" />
+                <p>044-248-333</p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/CasaMia888/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/casamia.terrazza/?hl=en">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="0b27cbd7-a2db-44b4-9c88-be331b7d4198"
+                />
+                <input type="text" id="name" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" id="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" id="phone" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea id="name" name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="searchbar.js"></script>
+  <script src="contactus.js"></script>
+  <script src="profile.js"></script>
+</html>
